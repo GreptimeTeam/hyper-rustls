@@ -11,7 +11,7 @@ repository = "https://github.com/rustls/hyper-rustls"
 documentation = "https://docs.rs/hyper-rustls/"
 
 [features]
-default = ["native-tokio", "http1", "tls12", "logging", "aws-lc-rs"]
+default = ["native-tokio", "http1", "tls12", "logging", "ring"]
 aws-lc-rs = ["rustls/aws_lc_rs"]
 fips = ["aws-lc-rs", "rustls/fips"]
 http1 = ["hyper-util/http1"]
